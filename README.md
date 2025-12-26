@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="156" src="./images/aiwb-icon.png">
+<img width="156" src="./images/dd-aiwb.png">
 
 <h1>
 <picture>
