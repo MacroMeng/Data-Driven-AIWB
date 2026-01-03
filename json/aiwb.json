@@ -28,7 +28,7 @@
                     "description": "Ink Canvas 的优化版本，添加了更多功能（比如自动收纳、自动查杀、荧光笔、图片插入等功能），并优化了使用体验，使其更适合课堂授课使用。目前已确认永久停更。",
                     "comments": {
                         "Douxiba": "非常推荐，除掉 ICC，是唯一用着比较舒服的屏幕批注软件，自动收纳有点小问题（2024 年 9 月 21 日，希沃白板 5 和希沃系软件的 Popup 弹窗会出 Bug），图片插入还是测试版，不过依旧还是好用！",
-                        "Makitoid": "ICA几乎解决了希沃白板的所有痛点，可以说是希沃白板的平替了。同样是用C＃开发的，为何差别这么大？但是，以下情况不建议使用ICA：①班里老师电脑水平普遍较差；②老师上课严重依赖板中板，ICA这方面优化不好。",
+                        "Makitoid": "ICA几乎解决了希沃白板的所有痛点，可以说是希沃白板的平替了。同样是用C#开发的，为何差别这么大？但是，以下情况不建议使用ICA：①班里老师电脑水平普遍较差；②老师上课严重依赖板中板，ICA这方面优化不好。",
                         "connect": "ICA的似我觉得是最可惜的，IC系里我最喜欢的就是这款，UI简洁，功能丰富，特别是恰到的好处丝滑，白板页是类似希沃白板的界面，工具板块可以打开希沃视频展台，对于教师上手的学习成本相比于其他的版本是几乎最低的，以及ppt联动页也是类似希沃ppt助手，只可惜停更了，令我惋惜。",
                         "2,2,3-三甲基戊烷": "虽然ICA在Aiwb里面它目前还在🥇的位置，但是我这个Aiwb maintainer认为它并不算比较好用的一款屏幕批注软件，甚至还比不上目前的ICC-CE。为什么呢？：①论绘制性能比不上基于C++的智绘教Inkeys；②论功能及其各方面的易用性不如ICC-CE；③ICA目前已经永久停更，不会再有功能更新与bug修复；④ICA总是会出现一些墨迹异常成为直线的情况。"
                     }
@@ -90,6 +90,39 @@
                     "logo": "./images/kazuha-icon.svg",
                     "description": "一款用于演示软件上的批注工具。",
                     "comments": {}
+                }
+            }
+        },
+        "schedule_and_borad": {
+            "name": "课表与看板软件",
+            "items": {
+                "ClassIsland": {
+                    "name": "ClassIsland",
+                    "logo": "https://github.com/ClassIsland/ClassIsland/raw/master/ClassIsland/Assets/AppLogo_AppLogo.svg",
+                    "banner": "./banner/classisland-banner.png",
+                    "description": "ClassIsland 是一款适用于班级多媒体屏幕的课表信息显示工具，可以在 Windows 屏幕上显示各种信息。本应用的名字灵感源于 iOS 灵动岛（Dynamic Island）功能。可显示当天的课表、当前进行课程的信息，在上下课等重要时间点发出提醒，自选搭配音效、强调特效和语音增强提醒。",
+                    "comments": {
+                        "Douxiba": "~~**非常好用，由你好微软草开发的课是地，使我开学必装**~~，支持多周轮换和临时课表，以及超高的自定义程度，CI 已经是目前最强大的桌面课表软件了，最近还上线了插件系统，可以通过自己开发插件来扩充 CI 的功能，非常推荐！",
+                        "Meng": "classisland 目前来看没有课表软件比Ci好用，但是整个软件配置比较复杂，不建议在班里电脑上盲开。建议先在家里设置好，研究明白再安到电脑上。如果你电脑水平较弱，那建议你~~别当电教~~移步其它软件"
+                    }
+                },
+                "ZongziTEK 黑板贴": {
+                    "name": "ZongziTEK 黑板贴",
+                    "logo": "https://zztek.top/images/Sticker-Screenshot-Light.png",
+                    "banner": "./banner/zongzi-tek-banner.png",
+                    "description": "用于白板一体机的桌面小部件，享受抬手即用的小黑板、高效的信息展示、便捷的课程管理和多项实用功能，满足班级的各种需求。",
+                    "comments": {
+                        "Douxiba": "还行，如果有小黑板需求可以使用，自带的课程表功能个人感觉有点鸡肋，不过也还算好用的，官网也是完全学到了微软式中文。比较推荐（如果不用 CI 的话）"
+                    }
+                },
+                "Sticky-attention": {
+                    "name": "Sticky-attention",
+                    "logo": "https://avatars.githubusercontent.com/u/183182916?s=48&v=4",
+                    "banner": "https://github.com/Sticky-attention/Sticky-attention/raw/master/image/banner.jpg",
+                    "description": "StickyAttention 是一款适用于 Windows 系统教室一体机的作业显示工具，基于 [HelloWRC/StickyHomeworks](https://github.com/HelloWRC/StickyHomeworks/) 开发，可以展示各科作业信息，且支持富文本，按科目分类，导出作业截图等功能。后续将添加更多新内容，敬请期待！",
+                    "comments": {
+                        "Douxiba": "之前在教室下过一次，不过当时用的时候不知道什么原因，很卡顿，现在不知道怎么样了，不过作为微软草的作业贴的后继者，还是希望这个项目能够持续发展下去吧。目前看来，如果你有 **文本格式的作业展示需求** 的话，最推荐这个，如果你需要展示手写版作业的话，还是用 **[粽子黑板贴](#zongzitek-黑板贴)** 吧！"
+                    }
                 }
             }
         }
